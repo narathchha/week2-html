@@ -1,0 +1,39 @@
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 1000px;
+    
+}
+caption{
+    background: rgb(47, 47, 170);
+    color: #ffff;
+    font-size: 30px;
+    padding: 20px;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    outline: none;
+    opacity:0.9;
+    
+}
+table th{
+    background:lightblue;
+    padding: 10px;
+    color:#ffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+table td{
+     padding: 20px;    
+}
+
+tr{
+    border-bottom:1px solid rgb(248, 236, 236);
+    border-right:1px solid rgb(248, 236, 236);
+    border-left: 1px solid rgb(248, 236, 236);
+    
+}
+tbody,
+tr,
+td:nth-child(2){
+    text-align:right;
+}
